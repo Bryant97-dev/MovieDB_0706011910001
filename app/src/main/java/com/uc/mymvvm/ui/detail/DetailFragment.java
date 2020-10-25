@@ -56,7 +56,7 @@ public class DetailFragment extends Fragment {
     private TvShow tvShow;
     private DetailViewModel viewModel;
     private DetailCastAdapter adapter;
-//    private MovieAdapter adapter;
+
 
     public DetailFragment() {
 

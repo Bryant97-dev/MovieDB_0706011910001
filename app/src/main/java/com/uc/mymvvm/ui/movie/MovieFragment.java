@@ -69,8 +69,7 @@ public class MovieFragment extends Fragment {
             adapter.setListMovie(movies);
             adapter.notifyDataSetChanged();
             showLoading(false);
-//                rv_movie.setAdapter(adapter);
-            //add adapter to recycler view
+
         }
     };
     private void showLoading(Boolean state) {

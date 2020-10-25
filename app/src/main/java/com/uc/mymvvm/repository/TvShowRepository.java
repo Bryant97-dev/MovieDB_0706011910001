@@ -21,7 +21,7 @@ import retrofit2.Response;
 
 public class TvShowRepository {
     private static TvShowRepository tvShowRepository;
-    //    private ApiEndpoint apiEndpoint;
+
     private RetrofitService service;
     private static final String TAG = "TvShowRepository";
 

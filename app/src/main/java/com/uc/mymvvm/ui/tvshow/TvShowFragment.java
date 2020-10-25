@@ -52,21 +52,15 @@ public class TvShowFragment extends Fragment {
         viewModel = ViewModelProviders.of(requireActivity()).get(TvShowViewModel.class);
         viewModel.getTvShowCollection().observe(requireActivity(), observeViewModel);
 
-//        Movie movie = new Movie();
-//
-//        btn_toDetail.setOnClickListener(view1 ->{
-//            NavDirections action = MovieFragmentDirections.actionDetailFragment(movie);
-//            Navigation.findNavController(view).navigate(action);
-//        });
+
     }
 
     private Observer<List<TvShow>> observeViewModel = tvShows -> {
         if (tvShows != null){
-            //set adapter
+
             adapter.setListTvShow(tvShows);
             adapter.notifyDataSetChanged();
-//                rv_movie.setAdapter(adapter);
-            //add adapter to recycler view
+
         }
     };
 }

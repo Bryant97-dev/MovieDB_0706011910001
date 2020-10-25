@@ -21,7 +21,7 @@ import retrofit2.Response;
 
 public class MovieRepository {
     private static MovieRepository movieRepository;
-    //    private ApiEndpoint apiEndpoint;
+
     private RetrofitService service;
     private static final String TAG = "MovieRepository";
 
